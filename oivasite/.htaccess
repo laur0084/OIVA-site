@@ -1,0 +1,16 @@
+
+# BEGIN WordPress
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /oivasite/
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /oivasite/index.php [L]
+</IfModule>
+
+# END WordPress
+AuthType Basic
+AuthName "oiva site protection"
+AuthUserFile "/home/deltaiso/.htpasswds/public_html/oivasite/passwd"
+require valid-user
