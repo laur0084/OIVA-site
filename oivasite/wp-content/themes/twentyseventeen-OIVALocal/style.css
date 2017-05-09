@@ -1,0 +1,13 @@
+/*
+Theme Name: Twentyseventeen OIVA theme
+Template: twentyseventeen
+Author: Joshua Laurin
+Descripition: OIVA theme site
+Version: 0.1.0
+*/
+
+@import url("../twentyseventeen/style.css");
+
+body{
+background-color: pink;
+}

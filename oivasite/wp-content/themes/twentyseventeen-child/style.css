@@ -5,19 +5,3 @@ Author: Joshua Laurin
 Template: twentyseventeen
 version: 1.0
 */
-
-@import url(../twentyseventeen/style.css);
-
-
-.pageTitle{
-   font-size: 24px;
-   color: #ACDBE3;
-}
-
-/*
-background off black #574E4F
-light blue #ACDBE3
-grey #C2C2BD
-pink #F6B8B8
-green #72A37D
-*/
